@@ -1,0 +1,150 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    
+      
+}
+
+/* Styling for headings */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Styling for paragraphs */
+p {
+    color: #666666;
+    line-height: 0.5;
+    margin: 15px 0;
+    text-align: center;
+}
+/* Styling for Input type */
+input[type="text"] {
+    margin-left: 25%;
+    margin-top: -20vh;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;             
+    font-size: 22px;             
+    border: 1px solid #131212; 
+    background-color: #f4f4f4;    
+    border-radius: 10px;        
+    width: 50%;              
+    box-sizing: border-box;   
+    margin-bottom: 15px; 
+    box-shadow: 5px 5px 10px  hsla(0, 1%, 70%, 0.8);   
+}
+/* Styling for image */
+img {
+    display: block;
+   /* filter: blur(8px); */
+    margin-top: -10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+
+/* Styling for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+   
+    padding: 20px 20px;
+}
+
+/* Logo styling */
+.ul-logo {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color:  #f4f4f4;
+    padding: 20px 30px;
+
+}
+
+.ul-logo li {
+    margin: 0;
+}
+
+
+/* Navigation links styling */
+
+.nav-links {
+    background-color: hsla(0, 0%, 90%, 0.8);
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+}
+.nav-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline;
+    
+}
+.nav-links li b {
+    color:  rgb(129, 144, 211);
+    
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: solid;
+    font-weight: 510;
+    font-size: 20px;
+    padding: 30px;
+    transition: background-color 0.3s ease; 
+}
+
+
+.nav-links a:hover {
+    color: rgb(129, 144, 211);
+    
+} 
+.nav-contact {
+    
+    margin: 0px;
+    padding: 10px;
+    text-decoration: solid;
+
+}
+
+.nav-contact li{
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+
+}
+.nav-contact li {
+    display: inline;
+}
+
+.nav-contact a {
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+}
+input #fname{
+    background-color: hsla(0, 0%, 90%, 0.8);
+    padding: 20px;
+    text-decoration: solid;
+    border-radius: 10px;
+}
+

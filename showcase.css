@@ -1,0 +1,269 @@
+body {
+ 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+      
+}
+
+/* Styling for headings */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Container styling to center content */
+.container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 1vh;           
+  }
+  
+  /* Styling for typed-out text */
+  .typed-out {
+    color: #333;
+    margin-top: 0;      
+    text-align: center; 
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 6s forwards;
+   
+    font-size: 2.5rem;
+    width: 0;
+  }
+
+  .typed-out b{
+    color:rgb(129, 144, 211);
+  }
+  
+  /* Keyframes for typing animation */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  /*<span style="font-weight: bold;">Web Designer </span>*/
+
+  /* Button styling */
+/* Container for buttons */
+button {
+    padding: 13px 30px;
+    font-size: 17px;
+    background-color:#f4f4f4;
+    color: #333;
+    border: 1.2px solid #131212; 
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px; /* Space between buttons */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: rgb(129, 144, 211);
+    color: white;
+    border: none;
+    transform: scale(1.05);
+}
+
+/* Create a flex container for buttons */
+.button-container { 
+    align-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: center;    
+    margin-left: 150px; 
+    margin-right: 150px;
+    gap: 0.5px; 
+    margin-top: 50px;                  
+               
+}
+
+/* Ensure buttons are responsive */
+button {
+    min-width: 120px;           
+    max-width: 300px;            
+}
+
+
+  
+/* Styling for paragraphs */
+p {
+    color: #666666;
+    line-height: 0.5;
+    margin: 15px 0;
+    text-align: center;
+}
+/* Styling for Input type */
+input[type="text"] {
+    margin-left: 25%;
+    margin-top: -20vh;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;             
+    font-size: 22px;             
+    border: 1px solid #131212; 
+    background-color: #f4f4f4;    
+    border-radius: 10px;        
+    width: 50%;              
+    box-sizing: border-box;   
+    margin-bottom: 15px; 
+    box-shadow: 5px 5px 10px  hsla(0, 1%, 70%, 0.8);   
+}
+/* Styling for image */
+.row {
+
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+
+  }
+  .column{
+    align-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: center;
+  }
+  
+  .column img {
+    border-radius: 5px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 400px;
+    margin: 5px;
+  }
+  
+  /* Style the buttons */
+
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+
+/* Styling for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+   
+    padding: 20px 20px;
+}
+
+/* Logo styling */
+.ul-logo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color:  #f4f4f4;
+    padding: 20px 30px;
+
+}
+
+.ul-logo a {
+    text-decoration: none; 
+    color: black; 
+}
+
+.ul-logo li {
+    margin: 0;
+}
+
+
+
+
+/* Navigation links styling */
+
+.nav-links {
+    background-color: hsla(0, 0%, 90%, 0.8);
+    padding: 20px 30px;
+    border-radius: 10px;
+    
+}
+.nav-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px; 
+}
+
+.nav-links li {
+    display: inline;
+    
+}
+.nav-links li b {
+    color:  rgb(129, 144, 211);
+    
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: solid;
+    font-weight: 510;
+    font-size: 20px;
+    padding: 30px;
+    transition: background-color 0.3s ease; 
+}
+
+
+.nav-links a:hover {
+    color: rgb(129, 144, 211);
+    
+} 
+.nav-contact {
+    
+    margin: 0px;
+    padding: 10px;
+    text-decoration: solid;
+    
+
+}
+
+.nav-contact li{
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+
+}
+.nav-contact li {
+    display: inline;
+}
+
+.nav-contact a {
+    font-size: 20px;
+    color: rgb(26, 25, 25);
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+}
+input #fname{
+    background-color: hsla(0, 0%, 90%, 0.8);
+    padding: 20px;
+    text-decoration: solid;
+    border-radius: 10px;
+}
+
